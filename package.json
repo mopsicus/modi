@@ -1,0 +1,26 @@
+{
+  "name": "com.mopsicus.modi",
+  "version": "1.0.0",
+  "displayName": "MoDI",
+  "description": "Lightweight IoC container for Unity",
+  "keywords": [
+    "dependency injection",
+    "ioc",
+    "framework",
+    "simple",
+    "light",
+    "container"
+  ],
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A demo scene to show MoDI API usage",
+      "path": "Samples~/Demo"
+    }
+  ],
+  "author": {
+    "name": "Mopsicus",
+    "email": "mail@mopsicus.ru",
+    "url": "https://mopsicus.ru"
+  }
+}
