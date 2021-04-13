@@ -5,7 +5,7 @@
 # MoDI
 MoDI is a lightweight IoC container developed specifically to use with Unity. It's inspired by Zenject, but not so complex. Just one more bicycle for binding types, instances, resolving them and injection into fields 🙃
 
-## Installation ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mopsicus/modi?color=green)
+## Installation ![GitHub release (latest by date)](https://img.shields.io/github/package-json/v/mopsicus/modi)
 Get it from [releases page](https://github.com/mopsicus/modi/releases) or add the line below to `Packages/manifest.json` and this module will be installed directly from git url:
 ```
 "com.mopsicus.modi": "https://github.com/mopsicus/modi.git",
