@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="Documentation~/MoDI.png?raw=true" alt="MoDI" width="640px" height="400px"/>
+    <img src="Documentation~/MoDI.png?raw=true" alt="MoDI" width="580px" height="259px"/>
 </p>
 
 # MoDI

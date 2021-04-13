@@ -102,7 +102,7 @@ public class TestClass : DIMonoBehaviour {
 }
 ```
 
-## Injectiton
+## Injection
 You can tell MoDI to inject objects into all fields in class and, if necessary, ignore some of them.
 
 ```csharp
