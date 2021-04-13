@@ -84,16 +84,6 @@ namespace MoDI {
         }
 
         /// <summary>
-        /// Inject for all DIMonoBehaviours on scene
-        /// </summary>
-        public void ApplyInject() {
-            DIMonoBehaviour[] list = GameObject.FindObjectsOfType<DIMonoBehaviour>(true);
-            foreach (DIMonoBehaviour item in list) {
-                item.ApplyInject();
-            }
-        }
-
-        /// <summary>
         /// Inject objects to fields with attributes
         /// </summary>
         /// <param name="sender">Instance to get fields</param>
@@ -103,6 +93,16 @@ namespace MoDI {
                 throw new Exception($"DIContainer with tag '{tag}' not found");
             }
             _injector.Inject(sender, _containers[tag]);
+        }
+
+        /// <summary>
+        /// Inject for all DIMonoBehaviours on scene
+        /// </summary>
+        public void ApplyInject() {
+            DIMonoBehaviour[] list = GameObject.FindObjectsOfType<DIMonoBehaviour>(true);
+            foreach (DIMonoBehaviour item in list) {
+                item.ApplyInject();
+            }
         }
 
         /// <summary>

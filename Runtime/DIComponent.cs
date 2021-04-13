@@ -107,6 +107,7 @@ namespace MoDI {
 
         /// <summary>
         /// Use bind as single
+        /// All other binds with this type will be ignored
         /// </summary>
         public IDIComponentBuilder AsSingle() {
             Scope = ScopeMode.AsSingle;
