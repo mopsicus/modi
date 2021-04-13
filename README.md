@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="Documentation~/MoDI.png?raw=true" alt="MoDI" width="640px" height="400px"/>
+</p>
+
 # MoDI
 MoDI is a lightweight IoC container developed specifically to use with Unity. It's inspired by Zenject, but not so complex. Just one more bicycle for binding types, instances, resolving them and injection into fields 🙃
 
