@@ -9,8 +9,14 @@
     "framework",
     "simple",
     "light",
+    "unity",
     "container"
   ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mopsicus/modi.git"
+  },  
   "samples": [
     {
       "displayName": "Demo",
