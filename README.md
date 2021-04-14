@@ -15,7 +15,7 @@ Get it from [releases page](https://github.com/mopsicus/modi/releases) or add th
 See all API methods and examples in [Documentation](Documentation~/MoDI.md).
 
 ## Quick start
-To start use MoDI you shouldn't call any initialize methods. When you first call `DI.Get()` then MoDI already initialized and ready to work. Just add `using MoDI;` to your scripts and go ahead.
+To start using MoDI you shouldn't call any initialize methods. When you first call `DI.Get()` then MoDI already initialized and ready to work. Just add `using MoDI;` to your scripts and go ahead.
 
 Call `DI.Get()` to get default container. Pass container tag into `Get("my_container")` method to return custom container.
 
