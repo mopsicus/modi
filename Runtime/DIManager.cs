@@ -99,7 +99,7 @@ namespace MoDI {
         /// Inject for all DIMonoBehaviours on scene
         /// </summary>
         public void ApplyInject() {
-            DIMonoBehaviour[] list = GameObject.FindObjectsOfType<DIMonoBehaviour>(true);
+            DIMonoBehaviour[] list = FindObjectsOfType<DIMonoBehaviour>();
             foreach (DIMonoBehaviour item in list) {
                 item.ApplyInject();
             }
